@@ -6,33 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .font-roboto-thin {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .font-roboto-light {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .font-roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .font-roboto-medium {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .font-roboto-bold {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .font-roboto-black {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .font-roboto-thin-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        .font-roboto-light-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .font-roboto-regular-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .font-roboto-medium-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .font-roboto-bold-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        .font-roboto-black-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: italic;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="bg-[#FFFBF0] px-32">
-        <nav class="flex justify-around">
+    <header class="bg-[#FFFBF0] md:px-32 px-4 py-20">
+        <!-- <nav class="flex flex-col md:flex-row justify-around">
             <div>
                 <img src="./icons/logo.png" alt="" class="logo">
             </div>
-            <div>
-                <ul class="list-none">
+            <div class="align-middle">
+                <ul class="list-none flex gap-7 font-roboto-regular text-xl">
                     <li>Home</li>
                     <li>Product</li>
                     <li>About Us</li>
                     <li>Contact Us</li>
                 </ul>
             </div>
-        </nav>
-        <div class="flex justify-between items-center">
-            <div class="">
-                <h1 class="text-7xl uppercase">
+        </nav> -->
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="space-y-2">
+                <h1 class="text-7xl uppercase font-bebas-neue">
                     <span class="text-[#FABE4C] ">Be the Penguins</span>
                     <br>
                     <span class="text-[#363958]">of Winter</span>
                 </h1>
-                <p class="text-base text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing
+                <p class="text-xl text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry.</p>
-                <button class="capitalize bg-[#A4BC46] py-4 px-9 rounded-[10px] text-white font-medium text-base">
+                <button
+                    class="capitalize bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-4 px-9 rounded-[10px] text-white font-medium text-base">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6 inline">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -46,7 +131,11 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main class="max-w-7xl mx-auto">
+        <section>
+            <h3 class="text-5xl font-bebas-neue capitalize">W0Man Jacket</h3>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
